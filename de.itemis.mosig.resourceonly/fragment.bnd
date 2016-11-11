@@ -1,0 +1,12 @@
+-resourceonly: true
+
+Fragment-Host: ${project.name}
+ 
+Bundle-SymbolicName: ${project.name}.fragment
+
+Bundle-Version: 1.0.0.${tstamp}
+
+Private-Package: 
+
+Export-package: \
+	de.itemis.mosig.resourceonly
